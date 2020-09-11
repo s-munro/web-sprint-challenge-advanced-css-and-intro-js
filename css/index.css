@@ -181,7 +181,7 @@ nav span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 100vh;
     margin: 5% 0;
 }
 
@@ -232,10 +232,24 @@ button:hover {
         width: 60%;
     }
 
+    nav a {
+        font-size: 2.0rem;
+    }
+
+    nav span {
+        border-left: 2px solid #626262;
+
+    }
+
     .title-container div,
     .title-container hr {
         margin: 2% 0;
         width: 100vw;
+    }
+
+    .title-container div {
+        height: 60vh;
+        margin: 5% 0;
     }
 
     .artists-container {
